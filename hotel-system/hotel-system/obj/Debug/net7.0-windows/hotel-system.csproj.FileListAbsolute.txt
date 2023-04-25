@@ -4,7 +4,6 @@ C:\Users\leroy\OneDrive\Documentos\code\hotel_system-csharp\hotel-system\hotel-s
 C:\Users\leroy\OneDrive\Documentos\code\hotel_system-csharp\hotel-system\hotel-system\bin\Debug\net7.0-windows\hotel-system.dll
 C:\Users\leroy\OneDrive\Documentos\code\hotel_system-csharp\hotel-system\hotel-system\bin\Debug\net7.0-windows\hotel-system.pdb
 C:\Users\leroy\OneDrive\Documentos\code\hotel_system-csharp\hotel-system\hotel-system\obj\Debug\net7.0-windows\hotel-system.csproj.AssemblyReference.cache
-C:\Users\leroy\OneDrive\Documentos\code\hotel_system-csharp\hotel-system\hotel-system\obj\Debug\net7.0-windows\hotel_system.login.resources
 C:\Users\leroy\OneDrive\Documentos\code\hotel_system-csharp\hotel-system\hotel-system\obj\Debug\net7.0-windows\hotel_system.Properties.Resources.resources
 C:\Users\leroy\OneDrive\Documentos\code\hotel_system-csharp\hotel-system\hotel-system\obj\Debug\net7.0-windows\hotel-system.csproj.GenerateResource.cache
 C:\Users\leroy\OneDrive\Documentos\code\hotel_system-csharp\hotel-system\hotel-system\obj\Debug\net7.0-windows\hotel-system.GeneratedMSBuildEditorConfig.editorconfig
@@ -16,3 +15,4 @@ C:\Users\leroy\OneDrive\Documentos\code\hotel_system-csharp\hotel-system\hotel-s
 C:\Users\leroy\OneDrive\Documentos\code\hotel_system-csharp\hotel-system\hotel-system\obj\Debug\net7.0-windows\hotel-system.pdb
 C:\Users\leroy\OneDrive\Documentos\code\hotel_system-csharp\hotel-system\hotel-system\obj\Debug\net7.0-windows\hotel-system.genruntimeconfig.cache
 C:\Users\leroy\OneDrive\Documentos\code\hotel_system-csharp\hotel-system\hotel-system\obj\Debug\net7.0-windows\ref\hotel-system.dll
+C:\Users\leroy\OneDrive\Documentos\code\hotel_system-csharp\hotel-system\hotel-system\obj\Debug\net7.0-windows\hotel_system.loginForm.resources

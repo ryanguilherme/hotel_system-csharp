@@ -1,8 +1,8 @@
 namespace hotel_system
 {
-    public partial class login : Form
+    public partial class loginForm : Form
     {
-        public login()
+        public loginForm()
         {
             InitializeComponent();
         }

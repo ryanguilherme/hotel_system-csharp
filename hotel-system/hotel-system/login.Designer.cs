@@ -1,6 +1,6 @@
 ﻿namespace hotel_system
 {
-    partial class login
+    partial class loginForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,22 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(login));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(loginForm));
+            loginPanel = new Panel();
             SuspendLayout();
             // 
-            // login
+            // loginPanel
+            // 
+            loginPanel.Location = new Point(66, 57);
+            loginPanel.Name = "loginPanel";
+            loginPanel.Size = new Size(237, 333);
+            loginPanel.TabIndex = 0;
+            // 
+            // loginForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
+            Controls.Add(loginPanel);
             DoubleBuffered = true;
-            Name = "login";
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
+            Name = "loginForm";
             Text = "Login";
             ResumeLayout(false);
         }
 
         #endregion
+
+        private Panel loginPanel;
     }
 }
