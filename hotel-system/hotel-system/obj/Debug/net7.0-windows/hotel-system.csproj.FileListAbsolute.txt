@@ -16,3 +16,4 @@ C:\Users\leroy\OneDrive\Documentos\code\hotel_system-csharp\hotel-system\hotel-s
 C:\Users\leroy\OneDrive\Documentos\code\hotel_system-csharp\hotel-system\hotel-system\obj\Debug\net7.0-windows\hotel-system.genruntimeconfig.cache
 C:\Users\leroy\OneDrive\Documentos\code\hotel_system-csharp\hotel-system\hotel-system\obj\Debug\net7.0-windows\ref\hotel-system.dll
 C:\Users\leroy\OneDrive\Documentos\code\hotel_system-csharp\hotel-system\hotel-system\obj\Debug\net7.0-windows\hotel_system.loginForm.resources
+C:\Users\leroy\OneDrive\Documentos\code\hotel_system-csharp\hotel-system\hotel-system\obj\Debug\net7.0-windows\hotel_system.menuForm.resources

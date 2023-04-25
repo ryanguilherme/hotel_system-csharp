@@ -60,6 +60,7 @@
             loginButton.Size = new Size(209, 53);
             loginButton.TabIndex = 2;
             loginButton.UseVisualStyleBackColor = true;
+            loginButton.Click += loginButton_Click;
             // 
             // passwordText
             // 
