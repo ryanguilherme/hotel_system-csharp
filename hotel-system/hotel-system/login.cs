@@ -5,11 +5,13 @@ namespace hotel_system
         public loginForm()
         {
             InitializeComponent();
+            loginPanel.Visible = false;
         }
 
         private void loginForm_Load(object sender, EventArgs e)
         {
             loginPanel.Location = new Point(this.Width / 4 - 135, this.Height / 2 - 185);
+            loginPanel.Visible = true;
             //loginButton.FlatAppearance.MouseOverBackColor = Color.FromArgb(143, 203, 123);
         }
 
