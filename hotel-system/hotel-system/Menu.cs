@@ -21,5 +21,12 @@ namespace hotel_system
         {
             this.Close();
         }
+
+        private void menuForm_Load(object sender, EventArgs e)
+        {
+            TopPanel.BackColor = Color.FromArgb(200, 200, 200);
+            RightPanel.BackColor = Color.FromArgb(160, 160, 160);
+        }
+
     }
 }

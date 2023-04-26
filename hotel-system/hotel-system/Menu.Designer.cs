@@ -55,7 +55,12 @@ namespace hotel_system
             MenuRelatorios = new ToolStripMenuItem();
             MenuSair = new ToolStripMenuItem();
             logoutToolStripMenuItem = new ToolStripMenuItem();
+            TopPanel = new Panel();
+            RightPanel = new Panel();
+            label2 = new Label();
+            label1 = new Label();
             menuStrip1.SuspendLayout();
+            RightPanel.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
@@ -79,35 +84,35 @@ namespace hotel_system
             // 
             funcionáriosToolStripMenuItem.Image = (Image)resources.GetObject("funcionáriosToolStripMenuItem.Image");
             funcionáriosToolStripMenuItem.Name = "funcionáriosToolStripMenuItem";
-            funcionáriosToolStripMenuItem.Size = new Size(180, 22);
+            funcionáriosToolStripMenuItem.Size = new Size(142, 22);
             funcionáriosToolStripMenuItem.Text = "Funcionários";
             // 
             // hóspedesToolStripMenuItem
             // 
             hóspedesToolStripMenuItem.Image = (Image)resources.GetObject("hóspedesToolStripMenuItem.Image");
             hóspedesToolStripMenuItem.Name = "hóspedesToolStripMenuItem";
-            hóspedesToolStripMenuItem.Size = new Size(180, 22);
+            hóspedesToolStripMenuItem.Size = new Size(142, 22);
             hóspedesToolStripMenuItem.Text = "Hóspedes";
             // 
             // quartosToolStripMenuItem
             // 
             quartosToolStripMenuItem.Image = (Image)resources.GetObject("quartosToolStripMenuItem.Image");
             quartosToolStripMenuItem.Name = "quartosToolStripMenuItem";
-            quartosToolStripMenuItem.Size = new Size(180, 22);
+            quartosToolStripMenuItem.Size = new Size(142, 22);
             quartosToolStripMenuItem.Text = "Quartos";
             // 
             // usuáriosToolStripMenuItem
             // 
             usuáriosToolStripMenuItem.Image = (Image)resources.GetObject("usuáriosToolStripMenuItem.Image");
             usuáriosToolStripMenuItem.Name = "usuáriosToolStripMenuItem";
-            usuáriosToolStripMenuItem.Size = new Size(180, 22);
+            usuáriosToolStripMenuItem.Size = new Size(142, 22);
             usuáriosToolStripMenuItem.Text = "Usuários";
             // 
             // serviçosToolStripMenuItem
             // 
             serviçosToolStripMenuItem.Image = (Image)resources.GetObject("serviçosToolStripMenuItem.Image");
             serviçosToolStripMenuItem.Name = "serviçosToolStripMenuItem";
-            serviçosToolStripMenuItem.Size = new Size(180, 22);
+            serviçosToolStripMenuItem.Size = new Size(142, 22);
             serviçosToolStripMenuItem.Text = "Serviços";
             // 
             // MenuProdutos
@@ -122,14 +127,14 @@ namespace hotel_system
             // 
             novoProdutoToolStripMenuItem.Image = (Image)resources.GetObject("novoProdutoToolStripMenuItem.Image");
             novoProdutoToolStripMenuItem.Name = "novoProdutoToolStripMenuItem";
-            novoProdutoToolStripMenuItem.Size = new Size(180, 22);
+            novoProdutoToolStripMenuItem.Size = new Size(149, 22);
             novoProdutoToolStripMenuItem.Text = "Novo Produto";
             // 
             // estoqueToolStripMenuItem
             // 
             estoqueToolStripMenuItem.Image = (Image)resources.GetObject("estoqueToolStripMenuItem.Image");
             estoqueToolStripMenuItem.Name = "estoqueToolStripMenuItem";
-            estoqueToolStripMenuItem.Size = new Size(180, 22);
+            estoqueToolStripMenuItem.Size = new Size(149, 22);
             estoqueToolStripMenuItem.Text = "Estoque";
             // 
             // MenuMovimentacoes
@@ -144,21 +149,21 @@ namespace hotel_system
             // 
             novaVendaToolStripMenuItem.Image = (Image)resources.GetObject("novaVendaToolStripMenuItem.Image");
             novaVendaToolStripMenuItem.Name = "novaVendaToolStripMenuItem";
-            novaVendaToolStripMenuItem.Size = new Size(180, 22);
+            novaVendaToolStripMenuItem.Size = new Size(164, 22);
             novaVendaToolStripMenuItem.Text = "Nova Venda";
             // 
             // novoServiçoToolStripMenuItem1
             // 
             novoServiçoToolStripMenuItem1.Image = (Image)resources.GetObject("novoServiçoToolStripMenuItem1.Image");
             novoServiçoToolStripMenuItem1.Name = "novoServiçoToolStripMenuItem1";
-            novoServiçoToolStripMenuItem1.Size = new Size(180, 22);
+            novoServiçoToolStripMenuItem1.Size = new Size(164, 22);
             novoServiçoToolStripMenuItem1.Text = "Novo Serviço";
             // 
             // entradasESaídasToolStripMenuItem
             // 
             entradasESaídasToolStripMenuItem.Image = (Image)resources.GetObject("entradasESaídasToolStripMenuItem.Image");
             entradasESaídasToolStripMenuItem.Name = "entradasESaídasToolStripMenuItem";
-            entradasESaídasToolStripMenuItem.Size = new Size(180, 22);
+            entradasESaídasToolStripMenuItem.Size = new Size(164, 22);
             entradasESaídasToolStripMenuItem.Text = "Entradas e Saídas";
             // 
             // MenuReservas
@@ -173,21 +178,21 @@ namespace hotel_system
             // 
             novaReservaToolStripMenuItem.Image = (Image)resources.GetObject("novaReservaToolStripMenuItem.Image");
             novaReservaToolStripMenuItem.Name = "novaReservaToolStripMenuItem";
-            novaReservaToolStripMenuItem.Size = new Size(180, 22);
+            novaReservaToolStripMenuItem.Size = new Size(178, 22);
             novaReservaToolStripMenuItem.Text = "Nova Reserva";
             // 
             // quadroDeReservasToolStripMenuItem
             // 
             quadroDeReservasToolStripMenuItem.Image = (Image)resources.GetObject("quadroDeReservasToolStripMenuItem.Image");
             quadroDeReservasToolStripMenuItem.Name = "quadroDeReservasToolStripMenuItem";
-            quadroDeReservasToolStripMenuItem.Size = new Size(180, 22);
+            quadroDeReservasToolStripMenuItem.Size = new Size(178, 22);
             quadroDeReservasToolStripMenuItem.Text = "Quadro de Reservas";
             // 
             // consultarReservasToolStripMenuItem
             // 
             consultarReservasToolStripMenuItem.Image = (Image)resources.GetObject("consultarReservasToolStripMenuItem.Image");
             consultarReservasToolStripMenuItem.Name = "consultarReservasToolStripMenuItem";
-            consultarReservasToolStripMenuItem.Size = new Size(180, 22);
+            consultarReservasToolStripMenuItem.Size = new Size(178, 22);
             consultarReservasToolStripMenuItem.Text = "Consultar Reservas";
             // 
             // MenuCheckInOut
@@ -202,14 +207,14 @@ namespace hotel_system
             // 
             novoServiçoToolStripMenuItem.Image = (Image)resources.GetObject("novoServiçoToolStripMenuItem.Image");
             novoServiçoToolStripMenuItem.Name = "novoServiçoToolStripMenuItem";
-            novoServiçoToolStripMenuItem.Size = new Size(180, 22);
+            novoServiçoToolStripMenuItem.Size = new Size(130, 22);
             novoServiçoToolStripMenuItem.Text = "Check In";
             // 
             // checkOutToolStripMenuItem
             // 
             checkOutToolStripMenuItem.Image = (Image)resources.GetObject("checkOutToolStripMenuItem.Image");
             checkOutToolStripMenuItem.Name = "checkOutToolStripMenuItem";
-            checkOutToolStripMenuItem.Size = new Size(180, 22);
+            checkOutToolStripMenuItem.Size = new Size(130, 22);
             checkOutToolStripMenuItem.Text = "Check Out";
             // 
             // MenuRelatorios
@@ -234,19 +239,66 @@ namespace hotel_system
             logoutToolStripMenuItem.Text = "Logout";
             logoutToolStripMenuItem.Click += logoutToolStripMenuItem_Click;
             // 
+            // TopPanel
+            // 
+            TopPanel.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            TopPanel.BackColor = SystemColors.AppWorkspace;
+            TopPanel.Location = new Point(0, 27);
+            TopPanel.Name = "TopPanel";
+            TopPanel.Size = new Size(594, 75);
+            TopPanel.TabIndex = 1;
+            // 
+            // RightPanel
+            // 
+            RightPanel.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
+            RightPanel.BackColor = SystemColors.ScrollBar;
+            RightPanel.Controls.Add(label2);
+            RightPanel.Controls.Add(label1);
+            RightPanel.Location = new Point(600, 27);
+            RightPanel.Name = "RightPanel";
+            RightPanel.Size = new Size(200, 411);
+            RightPanel.TabIndex = 2;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Franklin Gothic Medium", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.ForeColor = SystemColors.ButtonHighlight;
+            label2.Location = new Point(14, 45);
+            label2.Name = "label2";
+            label2.Size = new Size(43, 17);
+            label2.TabIndex = 1;
+            label2.Text = "Data:";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Franklin Gothic Medium", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.ForeColor = SystemColors.ButtonHighlight;
+            label1.Location = new Point(15, 18);
+            label1.Name = "label1";
+            label1.Size = new Size(42, 17);
+            label1.TabIndex = 0;
+            label1.Text = "Hora:";
+            // 
             // menuForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(RightPanel);
+            Controls.Add(TopPanel);
             Controls.Add(menuStrip1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MainMenuStrip = menuStrip1;
-            MaximizeBox = false;
             Name = "menuForm";
             Text = "Hotel";
             WindowState = FormWindowState.Maximized;
+            Load += menuForm_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
+            RightPanel.ResumeLayout(false);
+            RightPanel.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -277,5 +329,9 @@ namespace hotel_system
         private ToolStripMenuItem MenuRelatorios;
         private ToolStripMenuItem MenuSair;
         private ToolStripMenuItem logoutToolStripMenuItem;
+        private Panel TopPanel;
+        private Panel RightPanel;
+        private Label label2;
+        private Label label1;
     }
 }
