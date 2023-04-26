@@ -93,10 +93,13 @@
             Controls.Add(loginPanel);
             DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            KeyPreview = true;
             MaximizeBox = false;
             Name = "loginForm";
             Text = "Login";
             Load += loginForm_Load;
+            KeyDown += loginForm_KeyDown;
+            Resize += loginForm_Resize;
             loginPanel.ResumeLayout(false);
             loginPanel.PerformLayout();
             ResumeLayout(false);
