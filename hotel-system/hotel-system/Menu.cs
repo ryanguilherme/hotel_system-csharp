@@ -16,5 +16,10 @@ namespace hotel_system
         {
             InitializeComponent();
         }
+
+        private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
