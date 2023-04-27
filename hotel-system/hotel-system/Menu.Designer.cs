@@ -71,11 +71,21 @@ namespace hotel_system
             pictureBox1 = new PictureBox();
             label2 = new Label();
             label1 = new Label();
+            label7 = new Label();
+            pictureBox3 = new PictureBox();
+            label8 = new Label();
+            label9 = new Label();
+            label10 = new Label();
+            label11 = new Label();
+            label12 = new Label();
+            label13 = new Label();
+            label14 = new Label();
             menuStrip1.SuspendLayout();
             TopPanel.SuspendLayout();
             RightPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
             // menuStrip1
@@ -357,6 +367,15 @@ namespace hotel_system
             // 
             RightPanel.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
             RightPanel.BackColor = SystemColors.WindowFrame;
+            RightPanel.Controls.Add(label14);
+            RightPanel.Controls.Add(label13);
+            RightPanel.Controls.Add(label12);
+            RightPanel.Controls.Add(label11);
+            RightPanel.Controls.Add(label10);
+            RightPanel.Controls.Add(label7);
+            RightPanel.Controls.Add(pictureBox3);
+            RightPanel.Controls.Add(label8);
+            RightPanel.Controls.Add(label9);
             RightPanel.Controls.Add(label4);
             RightPanel.Controls.Add(pictureBox2);
             RightPanel.Controls.Add(label5);
@@ -456,6 +475,104 @@ namespace hotel_system
             label1.TabIndex = 0;
             label1.Text = "13:00:00";
             // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Georgia", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label7.ForeColor = SystemColors.ButtonHighlight;
+            label7.Location = new Point(-12, 266);
+            label7.Name = "label7";
+            label7.Size = new Size(223, 16);
+            label7.TabIndex = 11;
+            label7.Text = "________________________";
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(14, 202);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(45, 45);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox3.TabIndex = 10;
+            pictureBox3.TabStop = false;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Franklin Gothic Medium", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label8.ForeColor = SystemColors.ButtonHighlight;
+            label8.Location = new Point(95, 226);
+            label8.Name = "label8";
+            label8.Size = new Size(58, 17);
+            label8.TabIndex = 9;
+            label8.Text = "Quartos";
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Franklin Gothic Medium", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label9.ForeColor = SystemColors.ButtonHighlight;
+            label9.Location = new Point(91, 193);
+            label9.Name = "label9";
+            label9.Size = new Size(67, 17);
+            label9.TabIndex = 8;
+            label9.Text = "Reservas";
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Franklin Gothic Medium", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label10.ForeColor = SystemColors.ButtonHighlight;
+            label10.Location = new Point(64, 243);
+            label10.Name = "label10";
+            label10.Size = new Size(46, 17);
+            label10.TabIndex = 12;
+            label10.Text = "Livres";
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Font = new Font("Franklin Gothic Medium", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label11.ForeColor = SystemColors.ButtonHighlight;
+            label11.Location = new Point(126, 243);
+            label11.Name = "label11";
+            label11.Size = new Size(71, 17);
+            label11.TabIndex = 13;
+            label11.Text = "Ocupados";
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Font = new Font("Franklin Gothic Medium", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label12.ForeColor = SystemColors.ButtonHighlight;
+            label12.Location = new Point(114, 208);
+            label12.Name = "label12";
+            label12.Size = new Size(17, 17);
+            label12.TabIndex = 14;
+            label12.Text = "7";
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Font = new Font("Franklin Gothic Medium", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label13.ForeColor = SystemColors.ButtonHighlight;
+            label13.Location = new Point(74, 260);
+            label13.Name = "label13";
+            label13.Size = new Size(26, 17);
+            label13.TabIndex = 15;
+            label13.Text = "11";
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Franklin Gothic Medium", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label14.ForeColor = SystemColors.ButtonHighlight;
+            label14.Location = new Point(153, 260);
+            label14.Name = "label14";
+            label14.Size = new Size(17, 17);
+            label14.TabIndex = 16;
+            label14.Text = "7";
+            // 
             // menuForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -477,6 +594,7 @@ namespace hotel_system
             RightPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -523,5 +641,14 @@ namespace hotel_system
         private PictureBox pictureBox2;
         private Label label5;
         private Label label6;
+        private Label label14;
+        private Label label13;
+        private Label label12;
+        private Label label11;
+        private Label label10;
+        private Label label7;
+        private PictureBox pictureBox3;
+        private Label label8;
+        private Label label9;
     }
 }
